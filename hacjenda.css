@@ -1,0 +1,74 @@
+
+body {
+    margin:0;
+    padding: 0;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('http://static.hdw.eweb4.com/media/wallpapers_dl/1/19/181138-wood-background.png');
+}
+.body{
+    width: 90%;
+    margin: 0 auto;
+    clear: both;
+
+}
+.first-container{
+    width: 100%;
+    height: 50px;
+    background-color:#B22222;
+}
+h3{
+    font-size: 1.2em;
+    color:#E6E6FA ;
+    margin: 9px 5px;
+    font-style: italic;
+    float: left;
+    
+}
+.icons i {
+    float: right;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;   
+}
+
+a{
+    text-decoration: none;}
+a:link, a:visited{color:white;}
+a:hover, a:active{color:rgb(56, 56, 21);} 
+
+.foto{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://pysznosci.pl/wp-content/uploads/2017/06/grillowany-losos-z-kolorowa-salsa-i-ryzem_min.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.foto nav{
+
+    width: 100%;
+    height: 60px;
+    background-color: rgba(178, 34, 34, 0.432);
+    float: left;
+}
+.foto .content nav ul{
+    list-style: none;
+    text-align: right;
+}  
+
+.foto nav ul li{
+    display: inline;
+    padding: 0 20px;
+    line-height: 60px;  
+}
+
+.foto a:link,.mainheader a :visited{
+    color: brown;
+    display: inline-block;
+    
+}
+.foto a:hover, .mainheader a:active{
+    color: brown;
+    background-color: bisque;
+    text-shadow: 1px 1px seagreen;
